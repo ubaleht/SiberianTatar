@@ -9,4 +9,4 @@ https://drive.google.com/drive/folders/1m6Dosqe7-Vjm4sYHbi0XeJait3iEwiMK
 
 ## License
 
-The speech data of Siberian Tatar is licensed under the CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
+The speech data of Siberian Tatar are licensed under the CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
