@@ -1,6 +1,6 @@
 # Siberian Tatar
 
-This project is dedicated to the dialects of Siberian Tatars. At present, we began creating the Siberian Tatar speech corpus. In the future, other Siberian Tatar resources and models will be published here.
+This project is dedicated to the dialects of the Siberian Tatars. At present, we began creating the Siberian Tatar speech corpus. In the future, other Siberian Tatar resources and models will be published here.
 
 ## Speech Data of Siberian Tatar
 
