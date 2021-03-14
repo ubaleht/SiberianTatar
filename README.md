@@ -11,6 +11,16 @@ https://drive.google.com/drive/folders/1m6Dosqe7-Vjm4sYHbi0XeJait3iEwiMK
 
 The speech data of Siberian Tatar are licensed under the CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
 
+If you use this material, please publish reference to paper: Ubaleht, I. (2021, March). Lexeme: the Concept of System and the Creation of Speech Corpora for Two Endangered Languages. In Proceedings of the Workshop on Computational Methods for Endangered Languages (Vol. 2, pp. 20-23).
+
+or
+
+https://journals.colorado.edu/index.php/computel/article/view/981
+
+https://computel-workshop.org/wp-content/uploads/2021/03/2021.computel-2.5.pdf
+
+or reference to the corpus' repository: https://github.com/ubaleht/SiberianTatar
+
 ## Description of Speakers
 
 |The Code of the Speaker and Gender| The Year of Birth| Speech Data (Duration, In Minutes)|
