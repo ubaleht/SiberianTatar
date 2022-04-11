@@ -34,3 +34,7 @@ or reference to the corpus' repository: https://github.com/ubaleht/SiberianTatar
 |NGA-45 (F)|1945|12|Ust'-Ishim|Yarkovo|Father: Volga Tatars, mother: Siberian Tatars|
 |NIA-53 (M)|1953|9|Ilchebaga|Kuchum|Father: Kuchm (Siberian Tatars), mother: Volga Tatars|
 |SGL-61 (M)|1961|5|Ilchebaga|No Data|No Data|
+
+Ilchebaga, Ust'-Ishim, Tavinsk, Yarkovo, Erbagul - the villages are located in Omsk Oblast (Ust-Ishimsky District and Tevrizsky District).
+
+Kuchum - the village used to exist in Omsk Oblast.
