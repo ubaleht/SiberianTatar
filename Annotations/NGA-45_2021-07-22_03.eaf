@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-05-20T04:06:16+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-05-21T20:58:50+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SibTat/SiberianTatar/Annotations/NGA-45_2021-07-22_03.WAV"
-            MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../NGA-45_2021-07-22_03.WAV"/>
+            MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./NGA-45_2021-07-22_03.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:fffabe3d-e7df-43c4-b638-92b3a70640dd</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">39</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">86</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -39,7 +39,39 @@
         <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="15199"/>
         <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="15202"/>
         <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="15202"/>
-        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="20031"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="15726"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="16686"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="18173"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="18173"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="19099"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="19099"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="20031"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="20031"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="20679"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="23126"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="24372"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="24392"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="25259"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="26099"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="26932"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="26932"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="30013"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="31059"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="34140"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="34140"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="34860"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="34860"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="35733"/>
+        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="35733"/>
+        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="36220"/>
+        <TIME_SLOT TIME_SLOT_ID="ts55" TIME_VALUE="36877"/>
+        <TIME_SLOT TIME_SLOT_ID="ts56" TIME_VALUE="37693"/>
+        <TIME_SLOT TIME_SLOT_ID="ts57" TIME_VALUE="37693"/>
+        <TIME_SLOT TIME_SLOT_ID="ts58" TIME_VALUE="38372"/>
+        <TIME_SLOT TIME_SLOT_ID="ts59" TIME_VALUE="38372"/>
+        <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="39206"/>
+        <TIME_SLOT TIME_SLOT_ID="ts61" TIME_VALUE="39206"/>
+        <TIME_SLOT TIME_SLOT_ID="ts62" TIME_VALUE="74545"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -68,8 +100,32 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a38"
-                TIME_SLOT_REF1="ts28" TIME_SLOT_REF2="ts30">
+                TIME_SLOT_REF1="ts28" TIME_SLOT_REF2="ts37">
                 <ANNOTATION_VALUE>Fragment 05</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a52"
+                TIME_SLOT_REF1="ts36" TIME_SLOT_REF2="ts45">
+                <ANNOTATION_VALUE>Fragment 06</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a64"
+                TIME_SLOT_REF1="ts44" TIME_SLOT_REF2="ts53">
+                <ANNOTATION_VALUE>Fragment 07</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a74"
+                TIME_SLOT_REF1="ts52" TIME_SLOT_REF2="ts61">
+                <ANNOTATION_VALUE>Fragment 08</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a86"
+                TIME_SLOT_REF1="ts60" TIME_SLOT_REF2="ts62">
+                <ANNOTATION_VALUE>Fragment 09</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -89,7 +145,31 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a26"
                 TIME_SLOT_REF1="ts20" TIME_SLOT_REF2="ts22">
-                <ANNOTATION_VALUE>кусйешь</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>кусйеш</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a40"
+                TIME_SLOT_REF1="ts32" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>мочағай</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a53"
+                TIME_SLOT_REF1="ts40" TIME_SLOT_REF2="ts43">
+                <ANNOTATION_VALUE>йостоҡ подушка</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a65"
+                TIME_SLOT_REF1="ts48" TIME_SLOT_REF2="ts50">
+                <ANNOTATION_VALUE>йотул</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a75"
+                TIME_SLOT_REF1="ts56" TIME_SLOT_REF2="ts58">
+                <ANNOTATION_VALUE>йот</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -110,12 +190,52 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a27"
                 TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts23">
-                <ANNOTATION_VALUE>кусйешь</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>кусйеш</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a41"
+                TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts35">
+                <ANNOTATION_VALUE>мочағай</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a54"
+                TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE>йостоҡ</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a66"
+                TIME_SLOT_REF1="ts49" TIME_SLOT_REF2="ts51">
+                <ANNOTATION_VALUE>йотул</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a76"
+                TIME_SLOT_REF1="ts57" TIME_SLOT_REF2="ts59">
+                <ANNOTATION_VALUE>йот</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
-        PARENT_REF="Speaker-Word" TIER_ID="Speaker-WordLatin"/>
+        PARENT_REF="Speaker-Word" TIER_ID="Speaker-WordLatin">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a42" ANNOTATION_REF="a41">
+                <ANNOTATION_VALUE>moçağay</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a55" ANNOTATION_REF="a54">
+                <ANNOTATION_VALUE>yostoq</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a67" ANNOTATION_REF="a66">
+                <ANNOTATION_VALUE>yotul</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Word" TIER_ID="Speaker-WordIPA"/>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicSubdivision"
@@ -135,6 +255,26 @@
                 <ANNOTATION_VALUE>a tear</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a47" ANNOTATION_REF="a41">
+                <ANNOTATION_VALUE>lightning</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a56" ANNOTATION_REF="a54">
+                <ANNOTATION_VALUE>pillow</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a68" ANNOTATION_REF="a66">
+                <ANNOTATION_VALUE>lay</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a77" ANNOTATION_REF="a76">
+                <ANNOTATION_VALUE>alien</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicSubdivision"
         PARENT_REF="Speaker-Word" TIER_ID="Speaker-WordRuTranslation">
@@ -151,6 +291,21 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a29" ANNOTATION_REF="a27">
                 <ANNOTATION_VALUE>слеза</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a57" ANNOTATION_REF="a54">
+                <ANNOTATION_VALUE>подушка</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a69" ANNOTATION_REF="a66">
+                <ANNOTATION_VALUE>лежать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a78" ANNOTATION_REF="a76">
+                <ANNOTATION_VALUE>чужой</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -177,6 +332,26 @@
                 <ANNOTATION_VALUE>a tear</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a48" ANNOTATION_REF="a40">
+                <ANNOTATION_VALUE>lightning</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a58" ANNOTATION_REF="a53">
+                <ANNOTATION_VALUE>pillow pillow (ru)</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a70" ANNOTATION_REF="a65">
+                <ANNOTATION_VALUE>lay</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a79" ANNOTATION_REF="a75">
+                <ANNOTATION_VALUE>alien</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -193,6 +368,26 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a31" ANNOTATION_REF="a26">
                 <ANNOTATION_VALUE>слеза</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a49" ANNOTATION_REF="a40">
+                <ANNOTATION_VALUE>молния</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a59" ANNOTATION_REF="a53">
+                <ANNOTATION_VALUE>подушка</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a71" ANNOTATION_REF="a65">
+                <ANNOTATION_VALUE>лежать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a80" ANNOTATION_REF="a75">
+                <ANNOTATION_VALUE>чужой</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -213,6 +408,21 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a32" ANNOTATION_REF="a26">
                 <ANNOTATION_VALUE>bir gözyaşı</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a50" ANNOTATION_REF="a40">
+                <ANNOTATION_VALUE>yıldırım</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a60" ANNOTATION_REF="a53">
+                <ANNOTATION_VALUE>yastık yastık (ru)</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a81" ANNOTATION_REF="a75">
+                <ANNOTATION_VALUE>uzaylı</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -241,6 +451,30 @@
                 <ANNOTATION_VALUE>чечевица ... не знаете, угу</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a43"
+                TIME_SLOT_REF1="ts30" TIME_SLOT_REF2="ts31">
+                <ANNOTATION_VALUE>молния</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a61"
+                TIME_SLOT_REF1="ts38" TIME_SLOT_REF2="ts39">
+                <ANNOTATION_VALUE>ну вот, перина или пуховая подушка</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a72"
+                TIME_SLOT_REF1="ts46" TIME_SLOT_REF2="ts47">
+                <ANNOTATION_VALUE>лежать</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a82"
+                TIME_SLOT_REF1="ts54" TIME_SLOT_REF2="ts55">
+                <ANNOTATION_VALUE>чужой</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -257,6 +491,26 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a34" ANNOTATION_REF="a33">
                 <ANNOTATION_VALUE>a tear</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a45" ANNOTATION_REF="a43">
+                <ANNOTATION_VALUE>lightning</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a62" ANNOTATION_REF="a61">
+                <ANNOTATION_VALUE>well, duvet or down pillow</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a73" ANNOTATION_REF="a72">
+                <ANNOTATION_VALUE>lay</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a83" ANNOTATION_REF="a82">
+                <ANNOTATION_VALUE>alien</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -277,6 +531,16 @@
                 <ANNOTATION_VALUE>bir gözyaşı</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a46" ANNOTATION_REF="a43">
+                <ANNOTATION_VALUE>yıldırım</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a84" ANNOTATION_REF="a82">
+                <ANNOTATION_VALUE>uzaylı</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechComments"/>
@@ -295,6 +559,21 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a36" ANNOTATION_REF="a27">
                 <ANNOTATION_VALUE>bir gözyaşı</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a51" ANNOTATION_REF="a41">
+                <ANNOTATION_VALUE>yıldırım</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a63" ANNOTATION_REF="a54">
+                <ANNOTATION_VALUE>yastık</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a85" ANNOTATION_REF="a76">
+                <ANNOTATION_VALUE>uzaylı</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
