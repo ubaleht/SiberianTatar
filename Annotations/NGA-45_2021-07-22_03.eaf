@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-05-21T20:58:50+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-05-22T15:09:02+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -579,6 +579,8 @@
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Word" TIER_ID="Speaker-WordLanguage"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
+        PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechLatin"/>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
         LINGUISTIC_TYPE_ID="GeneralType" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Included_In"
