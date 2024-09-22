@@ -1,0 +1,96 @@
+
+Alphabet
+ А Ә Б В Г Ғ Д Е Ё Ж З И Й К Ҡ Л М Н Ң О Ө П Р С Т У Ү Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я
+ а ә б в г ғ д е ё ж з и й к ҡ л м н ң о ө п р с т у ү ф х ц ч ш щ ъ ы ь э ю я
+ %{A%}:а %{O%}:о %{E%}:е %{I%}:е %{i%}:е
+ %{L%}:л %{K%}:к %{G%}:г %{T%}:т %{s%}:с
+
+%>:0 % ;
+
+Sets
+
+Vow = А Ә Е И О Ө У Ү Ы Э Ю Я
+      а ә е и о ө у ү ы э ю я ;  
+
+Cnst = Б В Г Ғ Д Ж З Й К Ҡ Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ Ъ Ь
+	   б в г ғ д ж з и й к ҡ л м н ң р с т ф х ц ч ш щ ъ ь ;
+
+BackVow = А О У Ы
+		  а о у ы ;
+
+FrontVow = Ә Ө Ү Е Э И
+		   ә ө ү е э и ;
+		   
+BackVowWithoutO = А У Ы
+		          а у ы ;
+
+FrontVowWithoutO = Ә Ү Е Э И
+		           ә ү е э и ;
+
+NasalCnst = Н Ң М
+            н ң м ;
+			
+CnstVoiceless = К Ҡ Т П Ш Щ Ц Ч С Ф Х
+				к ҡ т п ш щ ц ч с ф х ;
+				
+CnstVoiced = Б В Г Ғ Д Ж З
+			 б в г ғ д ж з ;
+			 
+CnstSonorant = Л М Н Ң Р Й
+			   л м н ң р й ;
+			   
+
+Rules
+  
+"Front harmony in suffixes"
+%{A%}:ә <=> FrontVow: [ %{A%}: | %{L%}: | %{T%}: | %{K%}: | %{G%}: | %{I%}: | %{E%}: %{i%}: | %{s%}: | Cnst: | %>: ]* _ ;
+
+!"Rule 1"
+!%{I%}:е <=> FrontVowWithoutO: [ %{A%}: | %{L%}: | %{T%}: | Cnst: | %>: ]* _ ;
+
+"Rule 2"
+%{I%}:ы <=> BackVowWithoutO: [ %{A%}: | %{L%}: | %{T%}: | %{s%}: | %{i%}: | Cnst: | %>: ]* _ ;
+
+"Rule 3"
+%{I%}:ө <=> ө: [ %{A%}: | %{L%}: | %{T%}: | %{s%}: | %{i%}: | Cnst: | %>: ]* _ ;
+
+"Rule 4"
+%{I%}:о <=> о: [ %{A%}: | %{L%}: | %{T%}: | %{s%}: | %{i%}: | Cnst: | %>: ]* _ ;
+
+"Rule 10"
+%{E%}:ы <=> BackVow: [ %{L%}: | %{A%}: | Cnst: | %>: ]* _ ;
+
+"Plural alternation after nasal"
+%{L%}:н <=> :NasalCnst/[ %>: | :0 ] _ %{A%}: р ;
+
+"Rule 8"
+%{T%}:н <=> :NasalCnst/[ %>: | :0 ] _ %{A%}: н ; 
+
+"Rule 5"
+%{K%}:ҡ <=> BackVow: CnstVoiceless [ %{A%}: | %{L%}: | %>: ]* _ ;
+
+"Rule 6"
+%{K%}:ғ <=> BackVow: [ CnstVoiced: | %{A%}: | %{L%}: | %>: ]* _ ;
+
+"Rule 7"
+%{K%}:г <=> FrontVow: [ CnstVoiced: | %{A%}: | %{L%}: | %>: ]* _ ;
+
+"Rule 9"
+%{G%}:ғ <=> :BackVow/[ %>: | :0 ] [ р: ]* _ ;
+
+"Deletion of {s} after a consonant"
+%{s%}:0 <=> :Cnst/[ %>: | :0 ] _ ;
+
+"Deletion of {i} after vowels"
+%{i%}:0 <=> [ :Vow - :Cnst ]/[ :0 | %>: ] _ ;
+
+!"Rule 10"
+!%{i%}:ы <=> BackVowWithoutO: [ %>: ]* _ ;
+
+!"Rule 11"
+!%{i%}:ө <=> ө: [ %>: ]* _ ;
+
+!"Rule 12"
+!%{i%}:о <=> о: [ %>: ]* _ ;
+
+

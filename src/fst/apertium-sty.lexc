@@ -1,0 +1,147 @@
+!!! Morphological transducer for Siberian Tatar !!!
+
+Multichar_Symbols
+
+%<n%>  ! Noun
+
+%<sg%> ! Singular
+%<pl%> ! Plural
+
+! Cases ! Падежи
+%<nom%>       ! Nominative         ! Именительный
+%<gen%>       ! Genitive           ! Родительный
+%<dat%>       ! Dative             ! Дательный
+%<acc%>       ! Accusative         ! Винительный
+%<loc%>       ! Locative           ! Местно-временнной
+%<abl%>       ! Ablative           ! Творительный
+
+! Possessives ! Категория принадлежности
+%<poss1sg%>     ! First person singular
+%<poss2sg%>     ! Second person singular
+%<poss3sg%>     ! Third person singular
+%<poss1pl%>     ! First person plural
+%<poss2pl%>     ! Second person plural
+%<poss3pl%>     ! Third person plural
+
+%{A%}   ! ArchiVowel а or ә
+%{E%}   ! ArchiVowel ы or е
+%{O%}   ! ArchiVowel о or ө
+%{L%}   ! ArchiCnst л or н
+%{T%}   ! ArchiCnst т or н
+%{K%}	! ArchiCnst (к or ҡ) or (г or ғ)
+%{G%}	! ArchiCnst г or ғ
+%{I%}	! ArchiCnst (ы or е) or (о or ө)
+%{i%}	! ArchiCnst (ы or е) or (о or ө) or 0
+%{s%}	! ArchiCnst s or 0
+
+
+LEXICON Root
+
+NounStems ;
+
+LEXICON CASES-GENERAL
+
+%<gen%>:%>н%{I%}ң # ;
+%<dat%>:%>%{K%}%{A%} # ;
+%<acc%>:%>н%{I%} # ;
+%<loc%>:%>т%{A%} # ;
+%<abl%>:%>%{T%}%{A%}н # ;
+
+LEXICON CASES-AFTER-PLURAL
+
+%<gen%>:%>н%{E%}ң # ;
+%<dat%>:%>%{G%}%{A%} # ;
+%<acc%>:%>н%{E%} # ;
+%<loc%>:%>т%{A%} # ;
+%<abl%>:%>т%{A%}н # ;
+
+LEXICON CASES-AFTER-1SG-2SG-POSSESSIVE
+
+%<nom%>:%> # ;
+%<gen%>:%>н%{I%}ң # ; !add ҡы/ке/ҡо/кө to the end of a token
+%<gat%>:%>%{A%} # ;
+%<acc%>:%>н%{I%} # ;
+%<loc%>:%>т%{A%} # ;
+%<abl%>:%>н%{A%}н # ;
+
+LEXICON CASES-AFTER-1PL-2PL-POSSESSIVE
+
+%<nom%>:%> # ;
+%<gen%>:%>н%{I%}ң # ; !add ҡы/ке/ҡо/кө to the end of a token
+%<gat%>:%>к%{A%} # ;
+%<acc%>:%>н%{I%} # ;
+%<loc%>:%>т%{A%} # ;
+%<abl%>:%>т%{A%}н # ;
+
+LEXICON CASES-AFTER-3SG-3PL-POSSESSIVE
+
+%<nom%>:%> # ;
+%<gen%>:%>н%{I%}ң # ; !add ҡы/ке/ҡо/кө to the end of a token
+%<gat%>:%>н%{A%} # ;
+%<acc%>:%>н # ;
+%<loc%>:%>нт%{A%} # ;
+%<abl%>:%>н%{A%}н # ;
+
+LEXICON POSSESSIVE-SINGULAR
+
+%<poss1sg%>:%>%{i%}м # ;
+%<poss2sg%>:%>%{i%}ң # ;
+%<poss3sg%>:%>%{s%}%{I%} # ;
+%<poss1pl%>:%>%{i%}б%{E%}с # ;
+%<poss2pl%>:%>%{i%}%{G%}%{E%}с # ;
+%<poss3pl%>:%>%{s%}%{I%} # ;
+
+LEXICON POSSESSIVE-SINGULAR-WITH-CASES
+
+%<poss1sg%>:%>%{i%}м CASES-AFTER-1SG-2SG-POSSESSIVE ;
+%<poss2sg%>:%>%{i%}ң CASES-AFTER-1SG-2SG-POSSESSIVE ;
+%<poss3sg%>:%>%{s%}%{I%} CASES-AFTER-3SG-3PL-POSSESSIVE ;
+%<poss1pl%>:%>%{i%}б%{E%}с CASES-AFTER-1PL-2PL-POSSESSIVE ;
+%<poss2pl%>:%>%{i%}%{G%}%{E%}с CASES-AFTER-1PL-2PL-POSSESSIVE ;
+%<poss3pl%>:%>%{s%}%{I%} CASES-AFTER-3SG-3PL-POSSESSIVE ;
+
+
+LEXICON POSSESSIVE-PLURAL
+
+%<poss1sg%>:%>%{E%}м # ;
+%<poss2sg%>:%>%{E%}ң # ;
+%<poss3sg%>:%>%{E%} # ;
+%<poss1pl%>:%>%{E%}б%{E%}с # ;
+%<poss2pl%>:%>%{E%}%{G%}%{E%}с # ;
+%<poss3pl%>:%>%{E%} # ;
+
+LEXICON PLURAL
+
+%<pl%>:%>%{L%}%{A%}р # ;
+%<pl%>:%>%{L%}%{A%}р POSSESSIVE-PLURAL ;
+%<pl%>:%>%{L%}%{A%}р CASES-AFTER-PLURAL ;
+
+LEXICON N1
+
+%<n%>: # ;
+%<n%>: CASES-GENERAL ;
+%<n%>: POSSESSIVE-SINGULAR ;
+%<n%>: POSSESSIVE-SINGULAR-WITH-CASES ;
+%<n%>: PLURAL ;
+
+LEXICON NounStems
+
+ҡысҡартма:ҡысҡартма N1 ; ! ""
+!абзац:абзац N1 ; ! ""
+өрөк:өрөк N1 ; ! ""
+!абсурд:абсурд N1 ; ! "абсурд"
+!авангард:авангард N1 ; ! "авангард"
+!аванс:аванс N1 ; ! "аванс"
+ҡул:ҡул N1 ; ! "рука"
+күл:күл N1 ; ! "озеро"
+тос:тос N1 ; ! "соль"
+сөт:сөт N1 ; ! "молоко"
+тора:тора N1 ; ! "город"
+кесә:кесә N1 ; ! "карман"
+соло:соло N1 ; ! "овёс"
+төлгө:төлгө N1 ; ! "лиса"
+көн:көн N1 ; ! "день"
+шәм:шәм N1 ; ! "свеча"
+таң:таң N1 ; ! "заря"
+төн:төн N1 ; ! "ночь"
+ҡош:ҡош N1 ; ! "птица"
