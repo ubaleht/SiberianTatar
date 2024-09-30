@@ -58,29 +58,42 @@ LEXICON CASES-AFTER-PLURAL
 LEXICON CASES-AFTER-1SG-2SG-POSSESSIVE
 
 %<nom%>:%> # ;
-%<gen%>:%>н%{I%}ң # ; !add ҡы/ке/ҡо/кө to the end of a token
 %<gat%>:%>%{A%} # ;
-%<acc%>:%>н%{I%} # ;
 %<loc%>:%>т%{A%} # ;
 %<abl%>:%>н%{A%}н # ;
 
 LEXICON CASES-AFTER-1PL-2PL-POSSESSIVE
 
 %<nom%>:%> # ;
-%<gen%>:%>н%{I%}ң # ; !add ҡы/ке/ҡо/кө to the end of a token
 %<gat%>:%>к%{A%} # ;
-%<acc%>:%>н%{I%} # ;
 %<loc%>:%>т%{A%} # ;
 %<abl%>:%>т%{A%}н # ;
 
 LEXICON CASES-AFTER-3SG-3PL-POSSESSIVE
 
 %<nom%>:%> # ;
-%<gen%>:%>н%{I%}ң # ; !add ҡы/ке/ҡо/кө to the end of a token
 %<gat%>:%>н%{A%} # ;
 %<acc%>:%>н # ;
 %<loc%>:%>нт%{A%} # ;
 %<abl%>:%>н%{A%}н # ;
+
+LEXICON NUM-SENSITIVE-CASES-AFTER-1-2-POSSESSIVE-SINGULAR
+
+%<gen%>:%>н%{I%}ң # ; !add ҡы/ке/ҡо/кө to the end of a token
+%<acc%>:%>н%{I%} # ;
+
+LEXICON NUM-SENSITIVE-CASES-AFTER-1-2-POSSESSIVE-PLURAL
+
+%<gen%>:%>н%{E%}ң # ; !add ҡы/кеto the end of a token
+%<acc%>:%>н%{E%} # ;
+
+LEXICON NUM-SENSITIVE-CASES-AFTER-3SG-3PL-POSSESSIVE-SINGULAR
+
+%<gen%>:%>н%{I%}ң # ; !add ҡы/ке/ҡо/кө to the end of a token
+
+LEXICON NUM-SENSITIVE-CASES-AFTER-3SG-3PL-POSSESSIVE-PLURAL
+
+%<gen%>:%>н%{E%}ң # ; !add ҡы/ке to the end of a token
 
 LEXICON POSSESSIVE-SINGULAR
 
@@ -91,14 +104,35 @@ LEXICON POSSESSIVE-SINGULAR
 %<poss2pl%>:%>%{i%}%{G%}%{E%}с # ;
 %<poss3pl%>:%>%{s%}%{I%} # ;
 
-LEXICON POSSESSIVE-SINGULAR-WITH-CASES
+LEXICON CASES-AFTER-POSSESSIVE-SINGULAR
 
 %<poss1sg%>:%>%{i%}м CASES-AFTER-1SG-2SG-POSSESSIVE ;
+%<poss1sg%>:%>%{i%}м NUM-SENSITIVE-CASES-AFTER-1-2-POSSESSIVE-SINGULAR ;
 %<poss2sg%>:%>%{i%}ң CASES-AFTER-1SG-2SG-POSSESSIVE ;
+%<poss2sg%>:%>%{i%}ң NUM-SENSITIVE-CASES-AFTER-1-2-POSSESSIVE-SINGULAR ;
 %<poss3sg%>:%>%{s%}%{I%} CASES-AFTER-3SG-3PL-POSSESSIVE ;
+%<poss3sg%>:%>%{s%}%{I%} NUM-SENSITIVE-CASES-AFTER-3SG-3PL-POSSESSIVE-SINGULAR ;
 %<poss1pl%>:%>%{i%}б%{E%}с CASES-AFTER-1PL-2PL-POSSESSIVE ;
+%<poss1pl%>:%>%{i%}б%{E%}с NUM-SENSITIVE-CASES-AFTER-1-2-POSSESSIVE-SINGULAR ;
 %<poss2pl%>:%>%{i%}%{G%}%{E%}с CASES-AFTER-1PL-2PL-POSSESSIVE ;
+%<poss2pl%>:%>%{i%}%{G%}%{E%}с NUM-SENSITIVE-CASES-AFTER-1-2-POSSESSIVE-SINGULAR ;
 %<poss3pl%>:%>%{s%}%{I%} CASES-AFTER-3SG-3PL-POSSESSIVE ;
+%<poss3pl%>:%>%{s%}%{I%} NUM-SENSITIVE-CASES-AFTER-3SG-3PL-POSSESSIVE-SINGULAR ;
+
+LEXICON CASES-AFTER-POSSESSIVE-PLURAL
+
+%<poss1sg%>:%>%{i%}м CASES-AFTER-1SG-2SG-POSSESSIVE ;
+%<poss1sg%>:%>%{i%}м NUM-SENSITIVE-CASES-AFTER-1-2-POSSESSIVE-PLURAL ;
+%<poss2sg%>:%>%{i%}ң CASES-AFTER-1SG-2SG-POSSESSIVE ;
+%<poss2sg%>:%>%{i%}ң NUM-SENSITIVE-CASES-AFTER-1-2-POSSESSIVE-PLURAL ;
+%<poss3sg%>:%>%{s%}%{I%} CASES-AFTER-3SG-3PL-POSSESSIVE ;
+%<poss3sg%>:%>%{s%}%{I%} NUM-SENSITIVE-CASES-AFTER-3SG-3PL-POSSESSIVE-PLURAL ;
+%<poss1pl%>:%>%{i%}б%{E%}с CASES-AFTER-1PL-2PL-POSSESSIVE ;
+%<poss1pl%>:%>%{i%}б%{E%}с NUM-SENSITIVE-CASES-AFTER-1-2-POSSESSIVE-PLURAL ;
+%<poss2pl%>:%>%{i%}%{G%}%{E%}с CASES-AFTER-1PL-2PL-POSSESSIVE ;
+%<poss2pl%>:%>%{i%}%{G%}%{E%}с NUM-SENSITIVE-CASES-AFTER-1-2-POSSESSIVE-PLURAL ;
+%<poss3pl%>:%>%{s%}%{I%} CASES-AFTER-3SG-3PL-POSSESSIVE ;
+%<poss3pl%>:%>%{s%}%{I%} NUM-SENSITIVE-CASES-AFTER-3SG-3PL-POSSESSIVE-PLURAL ;
 
 
 LEXICON POSSESSIVE-PLURAL
@@ -113,15 +147,16 @@ LEXICON POSSESSIVE-PLURAL
 LEXICON PLURAL
 
 %<pl%>:%>%{L%}%{A%}р # ;
-%<pl%>:%>%{L%}%{A%}р POSSESSIVE-PLURAL ;
 %<pl%>:%>%{L%}%{A%}р CASES-AFTER-PLURAL ;
+%<pl%>:%>%{L%}%{A%}р POSSESSIVE-PLURAL ;
+%<pl%>:%>%{L%}%{A%}р CASES-AFTER-POSSESSIVE-PLURAL ;
 
 LEXICON N1
 
 %<n%>: # ;
 %<n%>: CASES-GENERAL ;
 %<n%>: POSSESSIVE-SINGULAR ;
-%<n%>: POSSESSIVE-SINGULAR-WITH-CASES ;
+%<n%>: CASES-AFTER-POSSESSIVE-SINGULAR ;
 %<n%>: PLURAL ;
 
 LEXICON NounStems
