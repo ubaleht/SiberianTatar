@@ -43,7 +43,7 @@ CnstSonorant = Л М Н Ң Р Й
 Rules
   
 "Front harmony in suffixes"
-%{A%}:ә <=> FrontVow: [ %{A%}: | %{L%}: | %{T%}: | %{K%}: | %{G%}: | %{I%}: | %{E%}: %{i%}: | %{s%}: | Cnst: | %>: ]* _ ;
+%{A%}:ә <=> FrontVow: [ %{A%}: | %{L%}: | %{T%}: | %{K%}: | %{G%}: | %{I%}: | %{E%}: | %{i%}: | %{s%}: | Cnst: | %>: ]* _ ;
 
 !"Rule 1"
 !%{I%}:е <=> FrontVowWithoutO: [ %{A%}: | %{L%}: | %{T%}: | Cnst: | %>: ]* _ ;
@@ -52,13 +52,13 @@ Rules
 %{I%}:ы <=> BackVowWithoutO: [ %{A%}: | %{L%}: | %{T%}: | %{s%}: | %{i%}: | Cnst: | %>: ]* _ ;
 
 "Rule 3"
-%{I%}:ө <=> ө: [ %{A%}: | %{L%}: | %{T%}: | %{s%}: | %{i%}: | Cnst: | %>: ]* _ ;
+%{I%}:ө <=> ө: [ %{A%}: | %{L%}: | %{T%}: | %{I%}: | %{G%}: | %{E%}: | %{s%}: | %{i%}: | Cnst: | %>: ]* _ ;
 
 "Rule 4"
 %{I%}:о <=> о: [ %{A%}: | %{L%}: | %{T%}: | %{s%}: | %{i%}: | Cnst: | %>: ]* _ ;
 
 "Rule 10"
-%{E%}:ы <=> BackVow: [ %{L%}: | %{A%}: | Cnst: | %>: ]* _ ;
+%{E%}:ы <=> BackVow: [ %{L%}: | %{A%}: | %{E%}: | %{G%}: | %{T%}: | %{I%}: | %{i%}: | %{s%}: | Cnst: | %>: ]* _ ;
 
 "Plural alternation after nasal"
 %{L%}:н <=> :NasalCnst/[ %>: | :0 ] _ %{A%}: р ;
@@ -67,16 +67,16 @@ Rules
 %{T%}:н <=> :NasalCnst/[ %>: | :0 ] _ %{A%}: н ; 
 
 "Rule 5"
-%{K%}:ҡ <=> BackVow: CnstVoiceless [ %{A%}: | %{L%}: | %>: ]* _ ;
+%{K%}:ҡ <=> BackVow: CnstVoiceless: [ %{A%}: | %{L%}: | %{E%}: | %{G%}: | %{T%}: | %{I%}: | %{i%}: | %{s%}: | %>: ]* _ ;
 
 "Rule 6"
-%{K%}:ғ <=> BackVow: [ CnstVoiced: | %{A%}: | %{L%}: | %>: ]* _ ;
+%{K%}:ғ <=> BackVow: [ CnstVoiced: | %{A%}: | %{L%}: | %{E%}: | %{G%}: | %{T%}: | %{I%}: | %{i%}: | %{s%}: | %>: ]* _ ;
 
 "Rule 7"
-%{K%}:г <=> FrontVow: [ CnstVoiced: | %{A%}: | %{L%}: | %>: ]* _ ;
+%{K%}:г <=> FrontVow: [ CnstVoiced: | %{A%}: | %{L%}: | %{E%}: | %{G%}: | %{T%}: | %{I%}: | %{i%}: | %{s%}: | %>: ]* _ ;
 
 "Rule 9"
-%{G%}:ғ <=> :BackVow/[ %>: | :0 ] [ р: ]* _ ;
+%{G%}:ғ <=> BackVow: [ %{A%}: | %{L%}: | %{E%}: | %{G%}: | %{T%}: | %{I%}: | %{i%}: | %{s%}: | Cnst: | %>: ]* _ ;
 
 "Deletion of {s} after a consonant"
 %{s%}:0 <=> :Cnst/[ %>: | :0 ] _ ;
